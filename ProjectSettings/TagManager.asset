@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Picture_Galaxy
+    uniqueID: 868446537
+    locked: 0
   - name: Background
     uniqueID: 1745656677
     locked: 0
