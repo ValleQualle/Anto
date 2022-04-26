@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db3e3493cdb50f941bab152fa54739e6
+guid: 6d82de0974cac2a498c84aff992e5d4a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Final_Idle_Sheet_0
+      name: Final_Idle_Swing_Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 310a7a6e18d75c34a8399307ff706d2a
-      internalID: -487467109
+      spriteID: 3c63ffa31082b544c87b3d4488359167
+      internalID: -618393678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_1
+      name: Final_Idle_Swing_Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1130922c62d19874d91aca989ec2e170
-      internalID: -1359499437
+      spriteID: e589be44c09e3ef48977165a5fcb3206
+      internalID: -2019879705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_2
+      name: Final_Idle_Swing_Sheet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0b6c20411adbe44beb54ba30ec16fa
-      internalID: -1672530198
+      spriteID: 8a039cfc08c8356469106e4068786f06
+      internalID: -118952608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_3
+      name: Final_Idle_Swing_Sheet_3
       rect:
         serializedVersion: 2
         x: 96
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: deb52197cc46aa54fbb26f215de35f81
-      internalID: -1387042189
+      spriteID: 1c954297fb2b393408ec1ebaffa9a760
+      internalID: -99379523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_4
+      name: Final_Idle_Swing_Sheet_4
       rect:
         serializedVersion: 2
         x: 128
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fdcc60afe15b424ebf40cdf81390e1d
-      internalID: 1638367286
+      spriteID: 7938ad116d1a32947ba89de20b4504d4
+      internalID: -1748832346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_5
+      name: Final_Idle_Swing_Sheet_5
       rect:
         serializedVersion: 2
         x: 160
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f634e41d8e1cbb48920e975d919122c
-      internalID: 1218215199
+      spriteID: f8ac51cf8615e304cb3479f708d29d49
+      internalID: 1873035895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_6
+      name: Final_Idle_Swing_Sheet_6
       rect:
         serializedVersion: 2
         x: 192
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f6a5609e4930944b3b771cbd058604
-      internalID: -105654982
+      spriteID: 5b513fd0dc8044a429fd3b7d7873d2fd
+      internalID: 409687489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_7
+      name: Final_Idle_Swing_Sheet_7
       rect:
         serializedVersion: 2
         x: 224
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6897335e44f62642a1f66d92b066335
-      internalID: 1553197809
+      spriteID: de69d91ccee8afa4a86ee4ca6acd5019
+      internalID: -1074102519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_8
+      name: Final_Idle_Swing_Sheet_8
       rect:
         serializedVersion: 2
         x: 256
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21b61ce122c32674e9eb34567b0993f7
-      internalID: -603698039
+      spriteID: 12c0a63188f82ea4bba64e7ee0729704
+      internalID: -1840546916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Idle_Sheet_9
+      name: Final_Idle_Swing_Sheet_9
       rect:
         serializedVersion: 2
         x: 288
@@ -307,8 +307,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b39784fa29ff49242acc54f754c9514f
-      internalID: -1082587926
+      spriteID: 5db35e8b38a877a439923721dafb35f7
+      internalID: 1318299336
       vertices: []
       indices: 
       edges: []
@@ -324,16 +324,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Final_Idle_Sheet_2: -1672530198
-      Final_Idle_Sheet_8: -603698039
-      Final_Idle_Sheet_9: -1082587926
-      Final_Idle_Sheet_1: -1359499437
-      Final_Idle_Sheet_0: -487467109
-      Final_Idle_Sheet_4: 1638367286
-      Final_Idle_Sheet_3: -1387042189
-      Final_Idle_Sheet_5: 1218215199
-      Final_Idle_Sheet_7: 1553197809
-      Final_Idle_Sheet_6: -105654982
+      Final_Idle_Swing_Sheet_1: -2019879705
+      Final_Idle_Swing_Sheet_0: -618393678
+      Final_Idle_Swing_Sheet_7: -1074102519
+      Final_Idle_Swing_Sheet_6: 409687489
+      Final_Idle_Swing_Sheet_2: -118952608
+      Final_Idle_Swing_Sheet_4: -1748832346
+      Final_Idle_Swing_Sheet_3: -99379523
+      Final_Idle_Swing_Sheet_8: -1840546916
+      Final_Idle_Swing_Sheet_9: 1318299336
+      Final_Idle_Swing_Sheet_5: 1873035895
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
