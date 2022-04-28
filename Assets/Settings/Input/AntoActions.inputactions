@@ -94,54 +94,6 @@
             ]
         },
         {
-            "name": "Player2",
-            "id": "893ac36b-d13f-41aa-8d86-1331eb1de2ad",
-            "actions": [
-                {
-                    "name": "MoveCase",
-                    "type": "Value",
-                    "id": "dc6a27b9-7b8f-49fe-92cd-dd3e1f951a3c",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "HoldCase",
-                    "type": "Button",
-                    "id": "d46489ff-8eee-482d-8987-9327cf799115",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "7f27cb2e-f01e-4994-83fe-08afc7f18076",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard and Mouse",
-                    "action": "MoveCase",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "41f84528-d453-4349-9bdc-a0abb1b305d4",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard and Mouse",
-                    "action": "HoldCase",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
             "name": "UI",
             "id": "a06c9352-bc79-4ba0-87ce-372f69712a36",
             "actions": [

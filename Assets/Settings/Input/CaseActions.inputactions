@@ -1,0 +1,46 @@
+{
+    "name": "CaseActions",
+    "maps": [
+        {
+            "name": "Player 2",
+            "id": "b65ce90f-3ff4-4f8f-bcb3-f2305296aa8a",
+            "actions": [
+                {
+                    "name": "MoveCase",
+                    "type": "Value",
+                    "id": "8b1ad71f-6108-4965-9b1b-afbad052b841",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "59599436-d6fb-4fba-890f-4829ea6b9f5a",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "MoveCase",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
