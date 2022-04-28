@@ -6,10 +6,10 @@
             "id": "60429994-6737-4502-9fd1-68cd11b8f94c",
             "actions": [
                 {
-                    "name": "MoveAnto",
-                    "type": "Value",
+                    "name": "MoveAntoButtons",
+                    "type": "Button",
                     "id": "53754dd3-dd42-4310-8d76-c92d4a942389",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -21,7 +21,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -32,7 +32,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MoveAnto",
+                    "action": "MoveAntoButtons",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -43,7 +43,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "MoveAnto",
+                    "action": "MoveAntoButtons",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -54,7 +54,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "MoveAnto",
+                    "action": "MoveAntoButtons",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -65,7 +65,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "MoveAnto",
+                    "action": "MoveAntoButtons",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -76,31 +76,9 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "MoveAnto",
+                    "action": "MoveAntoButtons",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "87f06208-eb03-4516-b5db-04bf2a33f17b",
-                    "path": "<Gamepad>/leftStick/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "MoveAnto",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c0b952e2-5f46-4237-a14a-8ca59fb2f403",
-                    "path": "<Gamepad>/dpad/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "MoveAnto",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
@@ -112,15 +90,52 @@
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "893ac36b-d13f-41aa-8d86-1331eb1de2ad",
+            "actions": [
+                {
+                    "name": "MoveCase",
+                    "type": "Value",
+                    "id": "dc6a27b9-7b8f-49fe-92cd-dd3e1f951a3c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HoldCase",
+                    "type": "Button",
+                    "id": "d46489ff-8eee-482d-8987-9327cf799115",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7f27cb2e-f01e-4994-83fe-08afc7f18076",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "MoveCase",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "ddabe0a6-8cec-4ea4-87d1-25b4a1a3bd1e",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "41f84528-d453-4349-9bdc-a0abb1b305d4",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Jump",
+                    "groups": "Keyboard and Mouse",
+                    "action": "HoldCase",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -440,23 +455,12 @@
             "bindingGroup": "Keyboard and Mouse",
             "devices": [
                 {
-                    "devicePath": "<Keyboard>",
-                    "isOptional": false,
+                    "devicePath": "<Mouse>",
+                    "isOptional": true,
                     "isOR": false
                 },
                 {
-                    "devicePath": "<Mouse>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "Gamepad",
-            "bindingGroup": "Gamepad",
-            "devices": [
-                {
-                    "devicePath": "<Gamepad>",
+                    "devicePath": "<Keyboard>",
                     "isOptional": true,
                     "isOR": false
                 }
