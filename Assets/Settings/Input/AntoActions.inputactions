@@ -6,7 +6,7 @@
             "id": "60429994-6737-4502-9fd1-68cd11b8f94c",
             "actions": [
                 {
-                    "name": "Move",
+                    "name": "MoveAnto",
                     "type": "Value",
                     "id": "53754dd3-dd42-4310-8d76-c92d4a942389",
                     "expectedControlType": "Axis",
@@ -26,35 +26,13 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "5ce732ef-8589-47d3-ae00-db604d3240c5",
-                    "path": "<Gamepad>/leftStick/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3bf4d568-f835-4032-9610-26a576449f7d",
-                    "path": "<Gamepad>/dpad/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "Keyboard 1D Axis",
                     "id": "f7d18a19-bb66-4729-a4f1-a2545fe70ff6",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveAnto",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -65,7 +43,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Move",
+                    "action": "MoveAnto",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -76,7 +54,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Move",
+                    "action": "MoveAnto",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -87,7 +65,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Move",
+                    "action": "MoveAnto",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -98,18 +76,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Move",
+                    "action": "MoveAnto",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "",
-                    "id": "b79c9ef8-7208-41b4-bca5-c8536f169e57",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "87f06208-eb03-4516-b5db-04bf2a33f17b",
+                    "path": "<Gamepad>/leftStick/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Jump",
+                    "action": "MoveAnto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c0b952e2-5f46-4237-a14a-8ca59fb2f403",
+                    "path": "<Gamepad>/dpad/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "MoveAnto",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -120,6 +109,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ddabe0a6-8cec-4ea4-87d1-25b4a1a3bd1e",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -436,27 +436,6 @@
     ],
     "controlSchemes": [
         {
-            "name": "Gamepad",
-            "bindingGroup": "Gamepad",
-            "devices": [
-                {
-                    "devicePath": "<Gamepad>",
-                    "isOptional": false,
-                    "isOR": false
-                },
-                {
-                    "devicePath": "<DualShockGamepad>",
-                    "isOptional": true,
-                    "isOR": false
-                },
-                {
-                    "devicePath": "<XInputController>",
-                    "isOptional": true,
-                    "isOR": false
-                }
-            ]
-        },
-        {
             "name": "Keyboard and Mouse",
             "bindingGroup": "Keyboard and Mouse",
             "devices": [
@@ -468,6 +447,17 @@
                 {
                     "devicePath": "<Mouse>",
                     "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": true,
                     "isOR": false
                 }
             ]
