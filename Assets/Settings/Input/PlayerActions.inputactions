@@ -1,5 +1,5 @@
 {
-    "name": "AntoActions",
+    "name": "PlayerActions",
     "maps": [
         {
             "name": "Player",
@@ -15,6 +15,15 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "MoveAntoGP",
+                    "type": "Value",
+                    "id": "fbbbbd57-6e93-4b3b-b7f1-c9e4a224eb1d",
+                    "expectedControlType": "Stick",
+                    "processors": "StickDeadzone",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Jump",
                     "type": "Button",
                     "id": "b0998fb4-44b3-44a4-b4a0-d5e97a5d450a",
@@ -24,13 +33,31 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "MoveAntoGP",
+                    "name": "MoveCase",
                     "type": "Value",
-                    "id": "fbbbbd57-6e93-4b3b-b7f1-c9e4a224eb1d",
-                    "expectedControlType": "Stick",
-                    "processors": "StickDeadzone",
+                    "id": "06756df1-872e-4460-9364-e87f7a95f295",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "MoveCaseGP",
+                    "type": "Value",
+                    "id": "be398343-6822-44c9-8490-7eda69e725a1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HoldCase",
+                    "type": "Button",
+                    "id": "094b4448-8f6b-4e21-bff3-c647c7967d5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -91,11 +118,33 @@
                 },
                 {
                     "name": "",
+                    "id": "4033f1ba-a93d-4e0b-b4f2-c3f5a9654e1e",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCase",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ff85e731-d77c-46b5-a5cc-52d3d648b1c1",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70dadb21-2c95-4461-b4b4-7f5855929d64",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -124,12 +173,34 @@
                 },
                 {
                     "name": "",
-                    "id": "70dadb21-2c95-4461-b4b4-7f5855929d64",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "e72c97c0-43df-48ed-824d-2cd3f2000494",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Jump",
+                    "action": "MoveCaseGP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6cfbd842-0419-472b-a895-46d19fd54d4e",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "HoldCase",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ed36b9c-39e5-4be5-b38e-f6bd4d69f33a",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HoldCase",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
