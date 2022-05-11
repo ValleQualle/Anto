@@ -4,14 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - "Schl\xFCssel"
   - PickUp
-  - Kabel
-  - Panel
   - Fernbedienung
-  - Radio
-  - Laser
   - CaseHoldBox
+  - Player2
+  - Inventory
+  - Undefined
   layers:
   - Default
   - TransparentFX
