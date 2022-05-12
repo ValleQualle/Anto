@@ -10,6 +10,13 @@ TagManager:
   - Player2
   - Inventory
   - Undefined
+  - Laser
+  - Panel
+  - "Schl\xFCssel"
+  - Radio
+  - Kabel
+  - Secret
+  - SecretDetector
   layers:
   - Default
   - TransparentFX
