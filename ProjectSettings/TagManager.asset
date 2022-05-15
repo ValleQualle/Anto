@@ -17,6 +17,8 @@ TagManager:
   - Kabel
   - Secret
   - SecretDetector
+  - SecretWall
+  - JumpKrater
   layers:
   - Default
   - TransparentFX
@@ -51,11 +53,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Picture_Galaxy
-    uniqueID: 868446537
+  - name: BG_Picture
+    uniqueID: 4180679547
     locked: 0
   - name: Background
     uniqueID: 1745656677
+    locked: 0
+  - name: Background Rim
+    uniqueID: 2227990267
     locked: 0
   - name: Default
     uniqueID: 0
