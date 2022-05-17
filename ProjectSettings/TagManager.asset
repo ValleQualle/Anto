@@ -19,6 +19,8 @@ TagManager:
   - SecretDetector
   - SecretWall
   - JumpKrater
+  - Player Parent
+  - Weiter Button
   layers:
   - Default
   - TransparentFX
