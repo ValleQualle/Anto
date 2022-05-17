@@ -21,6 +21,7 @@ TagManager:
   - JumpKrater
   - Player Parent
   - Weiter Button
+  - Sound Manager
   layers:
   - Default
   - TransparentFX
