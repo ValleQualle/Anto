@@ -23,6 +23,7 @@ TagManager:
   - Weiter Button
   - Sound Manager
   - Next Level Box
+  - DeathZone
   layers:
   - Default
   - TransparentFX
