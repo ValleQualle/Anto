@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2818278de7cdb594498533daff7a02b9
+guid: 6d0ed428f2ba24d42aa83298584159f1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,127 +104,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PickUps_Final_0
+      name: PickUps Pixel ohne Hintergrund_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 3
         y: 8
-        width: 19
+        width: 27
         height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d765cc58435008479c1082358133bfc
-      internalID: -740365853
+      spriteID: a22691c669a81ad41b6ff3acb6b10d49
+      internalID: -769066374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps_Final_1
+      name: PickUps Pixel ohne Hintergrund_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 42
+        y: 10
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80500ed2c5830d4c96332f293f98e05
+      internalID: 320801224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Pixel ohne Hintergrund_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a221fcce9f213e44b9d1c7673775b3e0
+      internalID: 322940999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Pixel ohne Hintergrund_3
+      rect:
+        serializedVersion: 2
+        x: 102
         y: 8
-        width: 20
+        width: 18
         height: 18
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52c5b230c0833f48ba6951e75df8f69
-      internalID: 1410586941
+      spriteID: 902d34c572aed4e4b9d9049c6d32bb5c
+      internalID: -1312984789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps_Final_2
+      name: PickUps Pixel ohne Hintergrund_4
       rect:
         serializedVersion: 2
-        x: 71
-        y: 8
-        width: 19
-        height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 139
+        y: 9
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e268ec7a077710c4393e552c8bbebb6d
-      internalID: 843564897
+      spriteID: 2c2b8489ff2f77e4690bba2258b35ac6
+      internalID: 2145174414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps_Final_3
+      name: PickUps Pixel ohne Hintergrund_5
       rect:
         serializedVersion: 2
-        x: 103
-        y: 8
-        width: 19
-        height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 172
+        y: 11
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 723f57ca06f95bc4abc3bd871d9b769a
-      internalID: -257886096
+      spriteID: 20bff0028c05e984d9917812baa52829
+      internalID: -1717417504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps_Final_4
+      name: PickUps Pixel ohne Hintergrund_6
       rect:
         serializedVersion: 2
-        x: 134
-        y: 8
-        width: 19
-        height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 199
+        y: 6
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fe31397b25e8104c8035f158535cd76
-      internalID: 1700975282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PickUps_Final_5
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 4
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d75bedbecf1b14498d3a824e6ac168f
-      internalID: -1231379731
+      spriteID: 6dd3fe7a348fe3d4c8bbe77577fd6e25
+      internalID: 370659462
       vertices: []
       indices: 
       edges: []
@@ -240,12 +261,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PickUps_Final_3: -257886096
-      PickUps_Final_2: 843564897
-      PickUps_Final_1: 1410586941
-      PickUps_Final_5: -1231379731
-      PickUps_Final_0: -740365853
-      PickUps_Final_4: 1700975282
+      PickUps Pixel ohne Hintergrund_5: -1717417504
+      PickUps Pixel ohne Hintergrund_4: 2145174414
+      PickUps Pixel ohne Hintergrund_6: 370659462
+      PickUps Pixel ohne Hintergrund_1: 320801224
+      PickUps Pixel ohne Hintergrund_2: 322940999
+      PickUps Pixel ohne Hintergrund_3: -1312984789
+      PickUps Pixel ohne Hintergrund_0: -769066374
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

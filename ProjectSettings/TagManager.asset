@@ -24,6 +24,9 @@ TagManager:
   - Sound Manager
   - Next Level Box
   - DeathZone
+  - Activation Zone
+  - SecretWallTrigger
+  - SecretWallCollider
   layers:
   - Default
   - TransparentFX

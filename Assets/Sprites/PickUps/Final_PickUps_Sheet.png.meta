@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6bea4acd56788de458e591147a5966ae
+guid: 22bfb8ff6c66916458bcb24a0b885c83
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,12 +104,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PickUps Pixel ohne Hintergrund-Sheet_0
+      name: Final_PickUps_Sheet_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 8
-        width: 27
+        x: 2
+        y: 6
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c99c85b79ac4743831ee94bb746a28
+      internalID: 735107761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_PickUps_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 9
+        width: 19
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 531682d24a278ab47a366c1f997f8b1a
-      internalID: 162547367
+      spriteID: 7ea7fe0fce60e184da8fef28767b32d8
+      internalID: -275327639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps Pixel ohne Hintergrund-Sheet_1
+      name: Final_PickUps_Sheet_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 10
-        width: 14
-        height: 13
+        x: 72
+        y: 8
+        width: 19
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,40 +160,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e05b93191ad5e054e8543a1faba87659
-      internalID: 883908315
+      spriteID: b238771228b1da948946663cf1c0a664
+      internalID: -567385982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps Pixel ohne Hintergrund-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 11
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bb0c8c30776dc247af65e0b5d261183
-      internalID: 2075747026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PickUps Pixel ohne Hintergrund-Sheet_3
+      name: Final_PickUps_Sheet_3
       rect:
         serializedVersion: 2
         x: 102
         y: 8
-        width: 18
+        width: 19
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7db4a5bcdd320b141818404404cd417c
-      internalID: 1350129779
+      spriteID: f493bedb06b29e94195a0fa3b7021390
+      internalID: 821392869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps Pixel ohne Hintergrund-Sheet_4
+      name: Final_PickUps_Sheet_4
       rect:
         serializedVersion: 2
-        x: 139
-        y: 9
-        width: 13
-        height: 15
+        x: 136
+        y: 8
+        width: 19
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9220b2caa1971364da0ea166c0e8a62e
-      internalID: -1951289958
+      spriteID: ea93a0409c778284490940a41a0022a5
+      internalID: 1636515578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PickUps Pixel ohne Hintergrund-Sheet_5
+      name: Final_PickUps_Sheet_5
       rect:
         serializedVersion: 2
-        x: 172
-        y: 11
-        width: 12
-        height: 11
+        x: 167
+        y: 8
+        width: 19
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,8 +223,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d460290c584541478dec96b454f37c5
-      internalID: 1364714248
+      spriteID: 5990ff822f67bfb4088dd1f9126b12d3
+      internalID: -329165446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_PickUps_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 6
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7941d4ab4f32c24b971f1144d9f411a
+      internalID: -1732113303
       vertices: []
       indices: 
       edges: []
@@ -240,12 +261,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PickUps Pixel ohne Hintergrund-Sheet_3: 1350129779
-      PickUps Pixel ohne Hintergrund-Sheet_0: 162547367
-      PickUps Pixel ohne Hintergrund-Sheet_2: 2075747026
-      PickUps Pixel ohne Hintergrund-Sheet_5: 1364714248
-      PickUps Pixel ohne Hintergrund-Sheet_1: 883908315
-      PickUps Pixel ohne Hintergrund-Sheet_4: -1951289958
+      Final_PickUps_Sheet_5: -329165446
+      Final_PickUps_Sheet_4: 1636515578
+      Final_PickUps_Sheet_1: -275327639
+      Final_PickUps_Sheet_6: -1732113303
+      Final_PickUps_Sheet_2: -567385982
+      Final_PickUps_Sheet_0: 735107761
+      Final_PickUps_Sheet_3: 821392869
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
