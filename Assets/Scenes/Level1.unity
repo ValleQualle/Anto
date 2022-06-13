@@ -3221,7 +3221,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 31
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3231,7 +3231,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 34
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4068,6 +4068,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741826
   - first: {x: 9, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 34
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741826
+  - first: {x: 10, y: -9, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 12
@@ -11883,7 +11893,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1141
+  - m_RefCount: 1142
     m_Data: {fileID: 11400000, guid: 3d0a1e15e5f03594c991e2b01fc3dfa9, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -11948,7 +11958,7 @@ Tilemap:
     m_Data: {fileID: -433265230, guid: 7e470a1bacfc85d4cb016a3dc16b5108, type: 3}
   - m_RefCount: 8
     m_Data: {fileID: 1874888096, guid: 7e470a1bacfc85d4cb016a3dc16b5108, type: 3}
-  - m_RefCount: 587
+  - m_RefCount: 588
     m_Data: {fileID: 1239330732, guid: 7e470a1bacfc85d4cb016a3dc16b5108, type: 3}
   - m_RefCount: 12
     m_Data: {fileID: -1266551364, guid: 7e470a1bacfc85d4cb016a3dc16b5108, type: 3}
@@ -11973,7 +11983,7 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 368009525, guid: 7e470a1bacfc85d4cb016a3dc16b5108, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1141
+  - m_RefCount: 1142
     m_Data:
       e00: 1
       e01: 0
@@ -11992,7 +12002,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 1141
+  - m_RefCount: 1142
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -13191,11 +13201,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00b0ab0741bfd8541bee2c3c21c6452a, type: 3}
---- !u!1 &459273539 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2906102570530102302, guid: bb2132aec5b6c4b4890afead2c1a4ef9, type: 3}
-  m_PrefabInstance: {fileID: 935812364}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &489562879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8862675742699810917, guid: c3e5e253393578c418eb9b560ae5948e, type: 3}
@@ -33807,6 +33812,11 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!1 &622812146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9093464365438004590, guid: bb2132aec5b6c4b4890afead2c1a4ef9, type: 3}
+  m_PrefabInstance: {fileID: 935812364}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &669820839
 GameObject:
   m_ObjectHideFlags: 0
@@ -38957,6 +38967,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ac84b76e770cf3458f5226bade56426, type: 3}
+--- !u!95 &1626497428 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1752744251, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
+  m_PrefabInstance: {fileID: 1752744249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1644177891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 305139070203770995, guid: bb2132aec5b6c4b4890afead2c1a4ef9, type: 3}
+  m_PrefabInstance: {fileID: 935812364}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1646802561 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2238937612767237922, guid: c3e5e253393578c418eb9b560ae5948e, type: 3}
@@ -39080,7 +39100,7 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"optionenButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"hauptmen\u00fcButton","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"optionenMen\u00fc","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"optionenZur\u00fcckButton","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"optionenBackButton","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"pauseMen\u00fc","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"anto","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"player","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -39114,19 +39134,31 @@ PrefabInstance:
     - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
-      objectReference: {fileID: 459273539}
+      objectReference: {fileID: 622812146}
     - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
-      objectReference: {fileID: 2037658914}
+      objectReference: {fileID: 1644177891}
     - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 999929677}
     - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 6813014823396784034, guid: 3cd4bad1c06887d49b90f4de0f8334af, type: 3}
+    - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
+      propertyPath: _data._objectReferences.Array.data[8]
+      value: 
+      objectReference: {fileID: 4564467759597868774, guid: acec5885c12ce7b45bd4ec57a875bdde, type: 3}
+    - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
       propertyPath: _data._objectReferences.Array.data[9]
       value: 
       objectReference: {fileID: 772680944}
+    - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
+      propertyPath: _data._objectReferences.Array.data[10]
+      value: 
+      objectReference: {fileID: 1626497428}
     - target: {fileID: 2132199387431976563, guid: 7ef321c6a856cf743abd33dcd4914210, type: 3}
       propertyPath: _data._objectReferences.Array.data[11]
       value: 
@@ -40295,11 +40327,6 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 241749177663067377, guid: f58c045cb3464a2429ad9305f486a9c4, type: 3}
   m_PrefabInstance: {fileID: 110376122}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2037658914 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9115507101025823719, guid: bb2132aec5b6c4b4890afead2c1a4ef9, type: 3}
-  m_PrefabInstance: {fileID: 935812364}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083608692
 GameObject:
