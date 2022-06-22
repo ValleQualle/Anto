@@ -33,6 +33,24 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "JumpKey",
+                    "type": "Button",
+                    "id": "b936f635-63e0-4904-a2cf-bd98631cd162",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "JumpGP",
+                    "type": "Button",
+                    "id": "3c1a2e05-42ff-4a42-a6c9-55d1a3be798a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "MoveCase",
                     "type": "Value",
                     "id": "06756df1-872e-4460-9364-e87f7a95f295",
@@ -60,9 +78,45 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "HoldCaseGP",
+                    "type": "Button",
+                    "id": "7cd17f59-6115-4fec-846c-a7c9ec9db350",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HoldCaseKey",
+                    "type": "Button",
+                    "id": "00ebfd62-621f-4f43-a171-eb79264f020a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Inventory",
                     "type": "Button",
                     "id": "9c5f383d-58e5-4b6f-a6f0-a5a280ad6163",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InventoryKey",
+                    "type": "Button",
+                    "id": "d5a98f7c-3f38-4a4b-8e99-2a76af53a8dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InventoryGP",
+                    "type": "Button",
+                    "id": "a49d8087-af11-4c78-bd1a-e3010574f4eb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -78,9 +132,45 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "PausemenüKey",
+                    "type": "Button",
+                    "id": "4323eb5c-d4e9-42a0-a03a-298feb524370",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PausemenüGP",
+                    "type": "Button",
+                    "id": "b0b459f9-c9cb-442e-8849-c291c29b51c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Interact",
                     "type": "Button",
                     "id": "ec14052a-b6d5-42b7-a4ce-17ca9106bc0b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InteractKey",
+                    "type": "Button",
+                    "id": "6a150049-1b68-40c1-abd6-466c8a7c16f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InteractGP",
+                    "type": "Button",
+                    "id": "1dbb8f75-04e1-4488-b0df-40b999394309",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -294,6 +384,116 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93d6959d-1c94-4501-bdf0-beb43b2ec051",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "JumpGP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6562d4b8-23b9-4597-80fe-3002cd04ad5e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "JumpKey",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e51dc2b2-fc41-4a79-beba-3f33af08e00e",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "HoldCaseGP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51d6d265-0a59-44f7-8f50-4ce7c7652092",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HoldCaseKey",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6dbaeed6-da13-45d1-86f6-f7b4ac8778e4",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "InventoryKey",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5268b73b-50fd-4857-923c-c8a84cb0f6ad",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "InventoryGP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd5ff9db-8c14-4e32-b66e-93a11487b8a5",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "PausemenüKey",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0838f12a-d28d-49bc-93b6-8940798e4899",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "PausemenüGP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c95e5af6-4e9c-4d5f-93a1-1f8a596e519e",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "InteractKey",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8f73a55-8fb5-4673-bf9d-68a8cdfc15c7",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "InteractGP",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
