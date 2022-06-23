@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Key F
+  m_Name: Inventar Button
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -916421804, guid: 0b3e98a66764fa2498ca45f0594a7583, type: 3}
-    - time: 0.8333333
-      value: {fileID: 1376706790, guid: 0b3e98a66764fa2498ca45f0594a7583, type: 3}
+      value: {fileID: 1373861529, guid: d0ef690f7f595154da00cb2dcf05a5eb, type: 3}
+    - time: 1
+      value: {fileID: 1524849505, guid: d0ef690f7f595154da00cb2dcf05a5eb, type: 3}
     - time: 2
-      value: {fileID: -916421804, guid: 0b3e98a66764fa2498ca45f0594a7583, type: 3}
+      value: {fileID: 1373861529, guid: d0ef690f7f595154da00cb2dcf05a5eb, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,9 +44,9 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -916421804, guid: 0b3e98a66764fa2498ca45f0594a7583, type: 3}
-    - {fileID: 1376706790, guid: 0b3e98a66764fa2498ca45f0594a7583, type: 3}
-    - {fileID: -916421804, guid: 0b3e98a66764fa2498ca45f0594a7583, type: 3}
+    - {fileID: 1373861529, guid: d0ef690f7f595154da00cb2dcf05a5eb, type: 3}
+    - {fileID: 1524849505, guid: d0ef690f7f595154da00cb2dcf05a5eb, type: 3}
+    - {fileID: 1373861529, guid: d0ef690f7f595154da00cb2dcf05a5eb, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
