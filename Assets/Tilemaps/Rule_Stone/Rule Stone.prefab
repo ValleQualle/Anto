@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 1973993291339557935}
   - component: {fileID: 321576292585728050}
   m_Layer: 0
-  m_Name: Rule Swamp
+  m_Name: Rule Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
